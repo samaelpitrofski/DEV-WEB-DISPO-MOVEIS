@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+
+
+    <!-- Importação do normalize css para arrumar bugs -->
+    <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+    <!-- Importação do sistema de grid layout -->
+    <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+    <!-- Importação do nossa folha de estilo -->
+    <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+    <!-- Importação do nossa folha de estilo media query -->
+    <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
+    <!-- Importação da fonte Lato -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300&family=Lato:ital,wght@0,100;0,300;0,400;1,300&family=Lemonada:wght@300&display=swap" rel="stylesheet">
+    
+    <title>DINOCAR</title>
+</head>
+<body>
+
+    <header>
+        <nav class="nav-menu">
+            <a class="logo" href="/">DINOCAR</a>
+            <div class="mobile-menu">
+              <div class="line1"></div>
+              <div class="line2"></div>
+              <div class="line3"></div>
+            </div>
+            <ul class="nav-list">
+              <li><a href="#servicos">SERVIÇOS</a></li>
+              <li><a href="#galeria">GALERIA</a></li>
+              <li><a href="#express">EXPRESS</a></li>
+              <li><a href="#agendamento">AGENDAMENTO</a></li>
+            </ul>
+        </nav>
+        <div class="hero-text-box">
+            <h1>Mais que uma manutenção, <br> uma nova experiência</h1>
+            <a href="#agendamento" class="btn btn-full">Agendar atendimento</a>
+            <!--<a href="#" class="btn btn-ghost">Mais informações</a>-->
+        </div>
+         
+
+
+    </header>
+
+    <section class="servicos" id="servicos"> 
+        
+        <div class="row">
+            <h2>DENTRO DA OFICINA DINOCAR, SEU CARRO CONTARÁ COM OS MELHORES SERVIÇOS.</h2>
+            <ul class="long-copy">A manutenção automotiva é um assunto que envolve muita paixão. Mas, também, muita discussão, principalmente pela falta de informação técnica.
+                Sentindo a necessidade de respostas profissionais, simples e honestas sobre o mundo automotivo, nasce a Dinocars !</ul>
+
+        </div>
+        <div class="container">
+            <div class="card">
+                <div class="imagem"  >
+                    <img class="imagemcard" src="resources/img/Serviços/cambio-min.jpg" alt="Imagem do cambio de um carro">
+                </div>
+                <div class="texto">
+                    <h2 class="texto-main">TRANSMISSÃO</h2>
+                    <ul class="desc">
+                        <li>&#10004; Checagem da embreagem, </li>
+                        <li>&#10004; Checagem cabos e cilindros auxiliares,</li> 
+                        <li>&#10004; Checagem da transmissão, </li>
+                        <li>&#10004; Checagem do suportes e coxins, </li>
+                        <li>&#10004; Checagem dos tirantes de caixa e trambulador; </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <div class="imagem"  >
+                    <img class="imagemcard" src="resources/img/Serviços/trocaoleo-min.jpg" alt="Imagem do óleo sendo colocado no motor do carro">
+                </div>
+                <div class="texto">
+                    <h2 class="texto-main">FLUIDOS E FILTROS</h2>
+                    <ul class="desc">
+                        <li>&#10004; Checagem do nível e condições do óleo do motor e filtro </li>
+                        <li>&#10004; Checagem do nível e condições do óleo da transmissão  </li>
+                        <li>&#10004; Checagem do nível e condições do fluido de freio </li>
+                        <li>&#10004; Checagem do nível e condições do fluido da direção hidráulica</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <div class="imagem"  >
+                    <img class="imagemcard" src="resources/img/Serviços/suspensao-min.jpg" alt="imagem da suspensão do carro">
+                </div>
+                <div class="texto">
+                    <h2 class="texto-main">SUSPENSÃO</h2>
+                    <ul class="desc">
+                        <li>&#10004; Checagem da situação dos amortecedores </li>
+                        <li>&#10004; Checagem da situação das molas </li>
+                        <li>&#10004; Checagem dos coxins, batentes, suportes e buchas da suspensão </li>
+                        <li>&#10004; Checagem dos terminais e tensores de direção</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <div class="imagem"  >
+                    <img class="imagemcard" src="resources/img/Serviços/freio-min.jpg" alt="imagem do freio">
+                </div>
+                <div class="texto">
+                    <h2 class="texto-main">FREIOS</h2>
+                    <ul class="desc">&#10004; Checagem dos flexíveis de freio </li>
+                        <li>&#10004; Checagem de sapatas e lonas de freio </li>
+                        <li>&#10004; Checagem dos tambores de freio </li>
+                        <li>&#10004; Checagem de pastilhas e dos sensores de desgaste</li>
+					</ul>
+                </div>
+            </div>
+            <div class="card">
+                <div class="imagem"  >
+                    <img class="imagemcard" src="resources/img/Serviços/volante-min.jpg" alt="imagem de um volante">
+                </div>
+                <div class="texto">
+                    <h2 class="texto-main">DIREÇÃO</h2>
+                    <ul class="desc">
+                        <li>&#10004; Checagem da caixa de direção </li>
+                        <li>&#10004; Checagem das coifas e homocinéticas </li>
+                        <li>&#10004; Checagem dos rolamentos e cubos de roda </li>
+                        <li>&#10004; Checagem de terminais e tensores de direção</li>  
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <div class="imagem"  >
+                    <img class="imagemcard" src="resources/img/Serviços/eletrica-min.jpg" alt="imagem da parte eletrica de um carro">
+                </div>
+                <div class="texto">
+                    <h2 class="texto-main">ELÉTRICA</h2>
+                    <ul class="desc">
+                        <li>&#10004; Teste ou substituição da bateria </li>
+                        <li>&#10004; Teste do sistema de carga e partida (alternador e arranque) </li>
+                        <li>&#10004; Checagem de cabos e terminais elétricos </li>
+                        <li>&#10004; Checagem da necessidade de substituição de lâmpadas</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <div class="imagem"  >
+                    <img class="imagemcard" src="resources/img/Serviços/arrefecimento-min.jpg" alt="imagem do liquido de arrefecimento sendo colocado no carro">
+                </div>
+                <div class="texto">
+                    <h2 class="texto-main">ARREFECIMENTO</h2>
+                    <ul class="desc">
+                        <li>&#10004; Checagem situação do radiador </li>
+                        <li>&#10004; Checagem situação das mangueiras de água </li>
+                        <li>&#10004; Checagem situação da válvula termostática </li>
+                        <li>&#10004; Checagem do reservatório de expansão e tampa de vedação</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <div class="imagem"  >
+                    <img class="imagemcard" src="resources/img/Serviços/motor-min.jpeg" alt="imagem do motor">
+                </div>
+                <div class="texto">
+                    <h2 class="texto-main">MOTOR</h2>
+                    <ul class="desc">
+                        <li>&#10004; Checagem pressão da bomba de combustível </li>
+                        <li>&#10004; Teste de compressão do motor </li>
+                        <li>&#10004; Teste de pressão do óleo de motor </li>
+                        <li>&#10004; Checagem situação dos atuadores e sensores do sistema</li>
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+  
+    
+    <section class="section-photos" id="galeria">
+        <h2>Venha nos conhecer</h2>
+        <div class="gallery-container">
+
+            <a class="gallery-items" ><img src="resources/img/Galeria/galeria1-min.jpg" alt="Mecânica sorrindo ao lado do carro"></a>
+            <a class="gallery-items" ><img src="resources/img/Galeria/galeria2-min.jpg" alt="Cabeçote(é uma peça do motor) em cima da bancada"></a>
+            <a class="gallery-items" ><img src="resources/img/Galeria/galeria3-min.jpg" alt="Mecânico realizando manutenção nas rodas"></a>
+            <a class="gallery-items" ><img src="resources/img/Galeria/galeria4-min.jpg" alt="Limpeza do motor"></a>
+            <a class="gallery-items" ><img src="resources/img/Galeria/galeria5-min.jpg" alt="Mecânico verificando o funcionamento do motor"></a>
+            <a class="gallery-items" ><img src="resources/img/Galeria/galeria6-min.jpg" alt="Mecânico empurrando um pneu"></a>
+            <a class="gallery-items" ><img src="resources/img/Galeria/galeria7-min.jpg" alt="Mecânico e Mecânica ajustando uma rodas"></a>
+            <a class="gallery-items" ><img src="resources/img/Galeria/galeria8-min.jpg" alt="Peças do motor em cima da bancada"></a>
+            
+        </div>
+    </section>
+    
+   
+    
+
+    <section class="servicos" id="express"> 
+        
+        <div class="row">
+            <h2>SERVIÇOS EXPRESS</h2>
+            <p class="long-copy">Pensando no conforto do cliente a Dinocar inovou e criou o SERVIÇO EXPRESS que consiste em realizar manutenções em até 2 horas!</p>
+
+        </div>
+        
+        <div class="container">
+            <div class="card">
+                <div class="imagem"  >
+                    <img class="imagemcard" src="resources/img/Serviços/trocaoleo.jpg" alt="Imagem do óleo sendo colocado no motor do carro">
+                </div>
+                <div class="texto">
+                    <h2 class="texto-main">TROCA DE ÓLEO</h2>
+                    <ul class="desc">
+                        <li>Troca de Óleo 20W50 de R$229 por R$148,90. </li>
+                        <li>Troca de Óleo 10W40 ou 15W40  de R$259 por R$154.  </li>
+                        <li>Troca de Óleo 5W30 de R$279 por R$169. </li>
+                        <li >Troca de Óleo 5W40 de R$320 por R$189.</li>
+
+                    </ul>
+                </div>
+                <div class="imagem"  >
+                    <img class="imagemcard-pagamento" src="resources/img/Serviços Express/cartao-de-credito.png" alt="imagem da suspensão do carro">
+                    <p> Pagamento em até 6x sem juros!</p>
+                </div>    
+            </div>
+            <div class="card">
+                <div class="imagem"  >
+                    <img class="imagemcard" src="resources/img/Serviços Express/alinhamento.jpg" alt="Imagem do cambio de um carro">
+                </div>
+                <div class="texto">
+                    <h2 class="texto-main">Geometria Rodas</h2>
+                    <ul class="desc">
+                        <li>Geometria Computadorizada 3D, </li>
+                        <li>Balanceamento das 4 Rodas,</li> 
+                        <li>Rodízio de Pneus, Check Up dos Freios e Suspensão. </li>
+                        <li class="li-valor">De R$160 por R$99,90. </li>
+                    </ul>
+                </div>
+                <div class="imagem"  >
+                    <img class="imagemcard-pagamento" src="resources/img/Serviços Express/cartao-de-credito.png" alt="imagem da suspensão do carro">
+                    <p> Pagamento em até 6x sem juros!</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="imagem"  >
+                    <img class="imagemcard" src="resources/img/Serviços Express/AR-CONDICIONADO-CARRO.jpg" alt="imagem da suspensão do carro">
+                </div>
+                <div class="texto">
+                    <h2 class="texto-main">AR-CONDICIONADO</h2>
+                    <ul class="desc">
+                        <li>Troca do filtro de cabine,  </li>
+                        <li>Higienização dos dutos de ar, </li>
+                        <li>Aplicação de frâgrancia a gosto de cliente. </li>
+                        <li class="li-valor">De R$130 por R$89,90.</li>
+                    </ul>
+                </div>
+                <div class="imagem"  >
+                    
+                    <img class="imagemcard-pagamento" src="resources/img/Serviços Express/cartao-de-credito.png" alt="imagem da suspensão do carro">
+                    <p> Pagamento em até 6x sem juros!</p>
+                </div>
+                
+            </div>
+            
+        </div>
+    </section>
+
+
+
+    </section>
+
+    <section id="agendamento" id="agendamento">
+    
+            <div class="img-box">
+                <img src="resources/img/agendamento/agendamento.jpg">
+            </div>
+            <div class="row">
+                <h2>Agendar atendimento</h2>
+                <form action="#">
+                    <div class="input-group">
+                        <label for="nome"> Nome Completo</label>
+                        <input type="text" id="nome" placeholder="Digite o seu nome completo" required>
+                        
+                    </div>
+    
+                    <div class="input-group">
+                        <label for="telefone">Telefone</label>
+                        <input type="tel" id="telefone" placeholder="Digite o seu telefone" required>
+                    </div>
+    
+                    <div class="input-group w50">
+                        <label for="marca">Marca</label>
+                        <input type="marca" id="marca" placeholder="Marca do veículo" required list="marcas">
+                        <datalist id="marcas">
+                            <option value="Audi"></option>
+                            <option value="Bmw"></option>
+                            <option value="Chevrolet"></option>
+                            <option value="Citroen"></option>
+                            <option value="Fiat"></option>
+                            <option value="Ford"></option>
+                            <option value="Honda"></option>
+                            <option value="Hyundai"></option>
+                            <option value="Peugeot"></option>
+                            <option value="Renault"></option>
+                            <option value="Volkswagen"></option>
+                          </datalist>
+                        
+                    </div>
+    
+                    <div class="input-group w50">
+                        <label for="modelo">Modelo</label>
+                        <input type="modelo" id="modelo" placeholder="Modelo do veículo" required>
+                    </div>
+    
+                    
+                    <div class="input-group w50">
+                        <label for="ano">Ano</label>
+                        <input type="ano" id="ano" placeholder="Ano do veículo" required list="anos">
+                        <datalist id="anos">
+                            <option value="1998 - 1999"></option>
+                            <option value="2000 - 2001"></option>
+                            <option value="2002 - 2004"></option>
+                            <option value="2005 - 2007"></option>
+                            <option value="2008 - 2009"></option>
+                            <option value="2010 - 2012"></option>
+                            <option value="2013 - 2015"></option>
+                            <option value="2017 - 2019"></option>
+                            <option value="2020 - 2021"></option>
+                            <option value="2022 -     "></option>
+                        </datalist>
+                    </div>
+    
+                    <div class="input-group w50">
+                        <label for="servico">Serviço</label>
+                        <input type="servico" id="servico" placeholder="Serviço escolhido" required list="servicoslist">
+                        <datalist id="servicoslist">
+                            <option value="Pré Compra"></option>
+                            <option value="Mecânica e Diagnóstico"></option>
+                            <option value="Limpeza"></option>
+                        </datalist>
+                    </div>
+    
+                    <div class="input-group">
+                        <button>Agendar</button>
+                    </div>
+    
+                </form>
+            
+        </div>
+        
+    </section>
+
+    <section id="section-testimonials">
+        <!-- Representa a primeira linha de conteúdo dessa seção -->
+        <div class="row">
+            <h2>Melhorando a qualidade de vida das pessoas</h2>
+        </div>
+        <!-- Representa a segunda linha de conteúdo dessa seção -->
+        <div class="row">
+            <div class="col span-1-of-3">
+                <!--Tag pra inserir citação-->
+                <blockquote>
+                    Atendimento irretocável! A assistência, prazo e qualidade foram excelentes, a Oficina Dinocar está de parabéns. A entrega foi super rápida, muito mais do que eu esperava. Foi um serviço de alta qualidade.
+
+                    <!--Tag pra inserir o autor-->
+                    <cite>
+                        <img src="resources/img/depoimentos/depoimento1-min.jpg" alt="Ademir Tomaz"> Ademir Tomaz
+                    </cit>
+                    
+                </blockquote>
+            </div>
+
+            <div class="col span-1-of-3">
+                 <!--Tag pra inserir citação-->
+                 <blockquote>
+                    O  atendimento da Dinocar foi ótimo, do orçamento à entrega. Um excelente serviço, incluindo a agilidade, qualidade, esclarecimentos e atenção ao cliente. Fiquei muito satisfeita.
+
+                    <!--Tag pra inserir o autor-->
+                    <cite>
+                        <img src="resources/img/depoimentos/depoimento2-min.jpg" alt="Soriane Kieski Martins"> Soriane Martins
+                    </cit> 
+                </blockquote>
+            </div>
+
+            <div class="col span-1-of-3">
+                 <!--Tag pra inserir citação-->
+                 <blockquote>
+                    O que eu tenho para falar sobre os serviços e atendimento da Oficina Dinocar são só elogios! Foi tudo maravilhoso, o trabalho é excelente, nota mil. 
+                    <!--Tag pra inserir o autor-->
+                    <cite>
+                        <img src="resources/img/depoimentos/depoimento3-min.jpg" alt="Marines Pires cordeiro"> Marines Pires 
+                    </cit>
+                </blockquote>
+            </div>
+            
+        </div>
+
+    </section>
+
+    <footer>
+        <div class="row">
+            <div class="col span-1-of-2">
+                <nav>
+                    <ul class="footer-nav">
+                        <li><a href="#servicos">SERVIÇOS</a></li>
+                        <li><a href="#galeria">GALERIA</a></li>
+                        <li><a href="#express">EXPRESS</a></li>
+                        <li><a href="#agendamento">AGENDAMENTO</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="col span-1-of-2">
+                <nav>
+                    <ul class="social-nav">
+                        <li><a href="#"><ion-icon class="logo-facebook" name="logo-facebook"></ion-icon></a></li>
+                        <li><a href="#"><ion-icon class="logo-instagram" name="logo-instagram"></ion-icon></a></li>
+                        <li><a href="#"><ion-icon class="logo-twitter" name="logo-twitter"></ion-icon></a></li>
+                        <li><a href="#"><ion-icon class="logo-whatsapp" name="logo-whatsapp"></ion-icon></a></li>
+                    </ul>
+                </nav>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <p>Copyright &copy; 2022 - Dinocars. Todos os direitos reservados.</p>
+       </div>
+    </footer>
+
+
+    <!-- Importação da biblioteca de ícones -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://kit.fontawesome.com/c5a4aa6266.js" crossorigin="anonymous"></script>
+
+    <!-- Importação da biblioteca de ícones -->
+    <script src="resources/js/mobile-navbar.js"></script>
+
+    <!-- Magnific Popup core CSS file -->
+    <link rel="stylesheet" href="magnific-popup/magnific-popup.css">
+
+    <!-- jQuery 1.7.2+ or Zepto.js 1.0+ -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+</body>
+</html>
